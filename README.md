@@ -3,7 +3,8 @@
 
 
 ## FaceFind
-FaceFind is a full stack web application that utilizes a powerful face detection model of Clarifai API to detect human faces from user-provided images via link. With its user-friendly interface and efficient backend, this app allows users to effortlessly detect and analyze faces in various images. Further details are given below:
+FaceFind is a full stack web application that utilizes a powerful face detection model of Clarifai API to detect human faces from user-provided images via link. With its user-friendly interface and efficient backend, this app allows users to effortlessly detect and analyze faces in various images. 
+This app also have its own database made in PostgreSQL (RDBMS). All users info will be stored in it.
 ## Features
 #### Face Detection: 
 The core functionality of the web app is its ability to detect human faces from images. By utilizing state-of-the-art face detection algorithms, the app accurately identifies faces and highlights them for easy visualization.
@@ -37,7 +38,10 @@ The web app employs a robust backend architecture that efficiently handles user 
 
 ## Built With
 
-![Logo](https://user-images.githubusercontent.com/36489953/78834570-0f5b2e80-79ef-11ea-8260-11a33e15fc1c.png)
+<img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png" width="250"/>
+<img src="https://testrigor.com/wp-content/uploads/2023/01/express-logo.png" width="250"/>
+<img src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/reactlogo_4.png?itok=LXFHZrKJ" width="250"/>
+<img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.png" width="250"/>
 
 
 
@@ -45,6 +49,7 @@ The web app employs a robust backend architecture that efficiently handles user 
 Following are some easy steps you have to follow to run this project in your machine
 ## Prerequisites
 * Install [Node](https://nodejs.org/en/download)
+* Install [PostreSQL](https://www.postgresql.org/download/)
 
   
 
@@ -66,6 +71,9 @@ Following are some easy steps you have to follow to run this project in your mac
   npm install nodemon
   npm start
 ```
+### Note
+This should be noted that the backend also inlcude the database script using knex.JS. To get the data from the users you must to connect the backend with the your database (PostgreSQL).
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated
