@@ -21,26 +21,30 @@ The web app employs a robust backend architecture that efficiently handles user 
 
 ## Signin Page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/FaceFind/assets/117630286/f8d7344d-4e52-4366-bf60-4195aec210ae)
 
 ## Register Page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/FaceFind/assets/117630286/c53fdb5c-5661-489c-985a-4be1f99dee37)
 
 ## Home Page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/FaceFind/assets/117630286/0188aa70-7ea6-4050-97d5-d5681b5b7f98)
 
 ## Detecting Face
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/FaceFind/assets/117630286/7589719e-f965-4925-a783-86464291fa55)
 
 
 ## Built With
+### Front-End
+<img src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/reactlogo_4.png?itok=LXFHZrKJ" width="250"/>
 
+### Back-End
 <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png" width="250"/>
 <img src="https://testrigor.com/wp-content/uploads/2023/01/express-logo.png" width="250"/>
-<img src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/reactlogo_4.png?itok=LXFHZrKJ" width="250"/>
+
+### Database
 <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.png" width="250"/>
 
 
