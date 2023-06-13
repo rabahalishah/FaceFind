@@ -11,18 +11,19 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
 const db = knex({
-  client: "pg",
+  client: "",
   connection: {
     host: "127.0.0.1",
-    port: 5432,
-    user: "postgres",
-    password: "test",
-    database: "smart-brain",
+    port: "ENTER YOUR DATABASE PORT HERE",
+    user: "YOUR USER NAME",
+    password: "YOUR PASSWORD",
+    database: "YOUR DATABASE NAME",
   },
 });
 
+//HERE YOU MUST HAVE TO ENTER YOUR TABLE NAME. IF YOU WILL MAKE CHANGE HERE YOU WILL HAVE TO MAKE CHANGES IN THE CONTROLLERS FILE TOO
 db.select("*")
-  .from("users")
+  .from("users")   
   .then((data) => {
     // console.log(data);
   });
@@ -34,7 +35,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Routing
-app.get("/", (req, res) => { res.status(200).send('success')});
+app.get("/", (req, res) => { res.status(200).send('This App is woking!')});
 
 app.post("/signin", signin.handleSignin(db, bcrypt));
 
